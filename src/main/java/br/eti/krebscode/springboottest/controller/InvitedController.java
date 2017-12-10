@@ -11,4 +11,9 @@ public class InvitedController {
 		return "index";
 	}
 	
+	@RequestMapping("invitedlist")
+	public String invitedList() {
+		return "invitedlist";
+	}
+	
 }
